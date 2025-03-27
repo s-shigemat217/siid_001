@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* CSS Document */
+// common
+body {
+    font-family: "Noto Sans JP", "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    font-size: 16px;
+}
+.sec{
+    .sec-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+// section
+.about{
+    .block-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .txt-wrap{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+}
+
+.feature{
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    
+    .feature-list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        column-gap: 20px;
+    }
+    .feature-list-item{
+        width: 25%;
+    }
+    .item-title{
+
+    }
+    .txt{
+
+    }
+}
+
+.blog{
+
+.blog-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 20px;
+}
+.list-item{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.img-wrap{
+
+}
+.tag{
+
+}
+.date{
+
+}
+.blog-title{
+}
+.txt{
+}
+.icon{
+}
+
+}
