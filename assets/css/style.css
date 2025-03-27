@@ -4,11 +4,29 @@ body {
   font-size: 16px;
 }
 
+.sec {
+  padding: 40px 0;
+}
 .sec .sec-title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.grid-col-3 .grid-item {
+  width: 30%;
+}
+.grid-col-4 .grid-item {
+  width: 25%;
 }
 
 .about .block-title {
@@ -36,17 +54,48 @@ body {
 .feature .feature-list-item {
   width: 25%;
 }
-.blog .blog-list {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+.blog .card {
+  padding: 0 10px;
 }
-.blog .list-item {
-  width: 30%;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.blog .card-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.25s;
+}
+.blog .card-link:hover {
+  background-color: #eee;
+}
+.blog .card-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #999;
+  color: #fff;
+  display: block;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.blog .card-image {
+  width: 100%;
+  height: auto;
+}
+.blog .card-info {
+  padding: 10px;
+}
+.blog .card-time {
+  font-size: 12px;
+}
+.blog .card-headline {
+  margin: 0 auto 10px;
+}
+.blog .avator {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.blog .avator-image image {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

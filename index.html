@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <!-- ↑↑Google font↑↑ -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/sanitize.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -67,42 +67,63 @@
     </section>
     <section class="sec blog">
         <h1 class="sec-title">Blog</h1>
-        <ul class="blog-list">
-            <li class="list-item">
-                <a href="#">
-                    <div class="img-wrap">
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="">
-                        <span class="tag">New</span>
-                    </div>
-                    <time datetime="" class="date">2020.01.01</time>
-                    <h2 class="blog-title">Title</h2>
-                    <p class="txt">Text text text text text text text...</p>
-                    <img src="" alt="" class="icon">
-                </a>
+        <ul class="grid grid-col-3">
+            <li class="grid-item">
+                <article class="card">
+                    <a href="#" class="card-link">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="">
+                        <div class="card-info">
+                            <time datetime="" class="card-time">2020.01.01</time>
+                            <h2 class="card-headline">Title</h2>
+                            <p class="card-description">Text text text text text text text...</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">Seito</dt>
+                            <dd class="avator-image">
+                                <img src="https://dummyimage.com/50x500/000/fff" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
             </li>
-            <li class="list-item">
-                <a href="#">
-                    <div class="img-wrap">
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="">
-                        <span class="tag">New</span>
-                    </div>
-                    <time datetime="" class="date">2020.01.01</time>
-                    <h2 class="blog-title">Title</h2>
-                    <p class="txt">Text text text text text text text...</p>
-                    <img src="" alt="" class="icon">
-                </a>
+            <li class="grid-item">
+                <article class="card">
+                    <a href="#" class="card-link">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="">
+                        <div class="card-info">
+                            <time datetime="" class="card-time">2020.01.01</time>
+                            <h2 class="card-headline">Title</h2>
+                            <p class="card-description">Text text text text text text text...</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">Seito</dt>
+                            <dd class="avator-image">
+                                <img src="https://dummyimage.com/50x500/000/fff" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
             </li>
-            <li class="list-item">
-                <a href="#">
-                    <div class="img-wrap">
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="">
-                        <span class="tag">New</span>
-                    </div>
-                    <time datetime="" class="date">2020.01.01</time>
-                    <h2 class="blog-title">Title</h2>
-                    <p class="txt">Text text text text text text text...</p>
-                    <img src="" alt="" class="icon">
-                </a>
+            <li class="grid-item">
+                <article class="card">
+                    <a href="#" class="card-link">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="">
+                        <div class="card-info">
+                            <time datetime="" class="card-time">2020.01.01</time>
+                            <h2 class="card-headline">Title</h2>
+                            <p class="card-description">Text text text text text text text...</p>
+                        </div>
+                        <dl class="avator">
+                            <dt class="avator-name">Seito</dt>
+                            <dd class="avator-image">
+                                <img src="https://dummyimage.com/50x500/000/fff" alt="Author">
+                            </dd>
+                        </dl>
+                    </a>
+                </article>
             </li>
         </ul>
         <div class="btn-wrap">
