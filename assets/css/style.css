@@ -92,10 +92,45 @@ body {
 }
 .blog .avator {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
-.blog .avator-image image {
+.blog .avator-image {
+  margin: 0;
+  width: 50px;
+}
+.blog .avator-image img {
   width: 100%;
-  height: auto;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contact .form-item {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+}
+.contact .form-title {
+  width: 20%;
+}
+
+.banner-list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  list-style: none;
+}
+.banner .list-item {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.banner a img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -112,17 +112,59 @@ body {
     }
     .avator{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 10px;
+
         &-name{
             
         }
         &-image{
-            image{
+            margin: 0;
+            width: 50px;
+            img{
                 width: 100%;
-                height: auto;
+                height: 50px;
+                border-radius: 50%;
             }
             
         }
     }
     
+}
+
+// contact
+.contact{
+    .form-item{
+        display: flex;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .form-title{
+        width: 20%;
+    }
+
+}
+// 
+
+.banner{
+    &-list{
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        column-gap:20px;
+        list-style: none;
+    }
+    .list-item{
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+    a{
+        img{
+            width: 100%;
+        }
+    }
+            
 }
